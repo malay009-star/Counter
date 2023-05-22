@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Noto+Nastaliq+Urdu&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Signika+Negative:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-align: center;
+  color: #102a42;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  height: 100vh;
+  background-color: #f1f5f8;
+}
+
+.Counter {
+  background-color: white;
+  border-radius: 10px;
+  /* padding: 2rem;
+  padding-bottom: 3rem; */
+  width: 500px;
+  height: 370px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.3);
+}
+
+button {
+  cursor: pointer;
+  /* border: 1px solid #19344d; */
+}
+
+button:hover {
+  transition: all 0.4s ease;
+  background-color: #19344d;
+  color: white;
+}
+
+#reset {
+  margin: 0rem 1rem;
+}
+
+@media screen and (max-width: 500px) {
+  .Counter {
+    /* background-color: red; */
+    width: 430px;
+  }
+  .Counter h1 {
+    font-size: 50px;
+  }
+  .Counter button {
+    padding: 5px 12px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .Counter {
+    /* background-color: red; */
+    width: 360px;
+    height: 270px;
+  }
+  .Counter h1 {
+    font-size: 40px;
+  }
+  .Counter h5 {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .Counter {
+    /* background-color: red; */
+    width: 320px;
+  }
+  .Counter button {
+    padding: 5px 8px;
+  }
+}
